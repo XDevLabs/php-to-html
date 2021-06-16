@@ -22,10 +22,9 @@ This is an HTML project, based in PHP for including the files for quick publish 
 
 Just clone and do whatever you want with `PHP` and `SCSS` files
 
-For example, I have a template named `templates/list-post.php`
+For example, I have a template named `templates/list-post.php` so in `index.php` file we can call the template and passing data look like this
 
 ```PHP
-<?php
 template_part('list-post', [
     'data' => [
         [
@@ -42,7 +41,6 @@ template_part('list-post', [
         ]
     ]
 ])
-?>
 ```
 
 In template file `templates/list-post.php` can use
