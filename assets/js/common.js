@@ -9,7 +9,7 @@
             }
         })
 
-        $('.hammburger').click(function(e) {
+        $('.hamburger').click(function(e) {
             e.preventDefault()
             $(this).toggleClass('active')
             $('.header__navigation > nav').slideToggle()
