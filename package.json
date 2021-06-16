@@ -1,0 +1,29 @@
+{
+  "name": "php-to-html",
+  "version": "1.0.0",
+  "description": "This is an HTML project, based in PHP for including the files for quick publish the HTML files",
+  "author": "Binjuhor - kiemhd@outlook.com",
+  "license": "GNU-v3.0",
+  "keywords": [
+    "PHP",
+    "HTML",
+    "CSS",
+    "JS",
+    "SCSS"
+  ],
+  "homepage": "https://github.com/binjuhor/php-to-html",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:binjuhor/php-to-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/binjuhor/php-to-html/issues"
+  },
+  "scripts": {
+    "watch": "node-sass -w assets/sass/styles.scss assets/css/styles.css",
+    "build": "node-sass assets/sass/styles.scss assets/css/styles.css --output-style compressed"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
