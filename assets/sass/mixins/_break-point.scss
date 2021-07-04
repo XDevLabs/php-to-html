@@ -93,3 +93,9 @@ $break-1824: 114em;
     and (min-width : $point) { @content; }
   }
 }
+
+/** Break desktop first**/
+@mixin breakpoint-down($point) {
+  @media only screen
+  and (max-width : $point) { @content; }
+}
