@@ -25,7 +25,23 @@ function template_part($template_name = '', $data = [], $echo =  true ){
  * Show image from path with params is image name
  *
  * @param $file
+ * @param bool $show
+ * @return mixed
  */
-function assets($file) {
+function assets($file, $show = true) {
+    if (!$show) {
+        return $file;
+    }
+
     echo "assets/{$file}";
+}
+
+/**
+ * Show active class for menu
+ *
+ * @param $page
+ * @param $current_page
+ */
+function active($page, $current_page) {
+    echo ($page === $current_page)?'active':'';
 }
