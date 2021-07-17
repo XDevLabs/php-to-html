@@ -40,7 +40,7 @@ template_part('list-post', [
             'description' => 'Description 3'
         ]
     ]
-])
+]);
 ```
 
 In template file `templates/list-post.php` can use
@@ -56,4 +56,4 @@ if (isset($data)) {
 
 ### Contact developer
 
-Email: `kiemhd@outlook.com`
+Email: `kiemhd@outlook.com` - `kiemxdev@gmmail.com`
