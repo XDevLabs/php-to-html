@@ -1,4 +1,4 @@
-## Forty-eight PHP and HTML CSS JS project
+## Template PHP and HTML CSS JS project
 
 This is an HTML project, based in PHP for including the files for quick publish the HTML files
 
