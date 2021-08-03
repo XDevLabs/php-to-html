@@ -21,7 +21,8 @@
   },
   "scripts": {
     "watch": "node-sass -w assets/scss/styles.scss assets/css/styles.css",
-    "build": "node-sass assets/scss/styles.scss assets/css/styles.css --output-style compressed"
+    "compressed": "node-sass assets/scss/styles.scss assets/css/styles.css --output-style compressed",
+    "build": "./build.sh export-html"
   },
   "dependencies": {
     "node-sass": "^4.14.1"
