@@ -7,7 +7,7 @@ This is an HTML project, based in PHP for including the files for quick publish 
 + Run `yarn` to install dependency
 + Run `yarn watch` to watch SCSS files changed
 + Run `yarn compressed` to compress the CSS file
-+ Run `yarn build` to build HTML files in `/build/export-html`
++ Run `yarn build` to build HTML files in `./build/export-html`
 
 ## Files & Folders
 
@@ -18,11 +18,10 @@ This is an HTML project, based in PHP for including the files for quick publish 
 - `build.sh` to generate HTML files in `./build` folder
 - `package.json`
 
-## Usage
+## Development
 
-Just clone and do whatever you want with `PHP` and `SCSS` files
-
-For example, I have a template named `templates/list-post.php` so in `index.php` file we can call the template and passing data look like this
+Just clone and do whatever you want with `PHP` and `SCSS` files.\
+For example, I have a template named `templates/list-post.php` so in `index.php` file we can call the template and passing data look like this.
 
 ```PHP
 template_part('list-post', [
@@ -54,6 +53,12 @@ if (isset($data)) {
 }
 ```
 
+Change the styles please use `*.scss` in folder `./assets/scss`
+
 ### Contact developer
 
+---
+
 Email: `kiemhd@outlook.com` - `kiemxdev@gmmail.com`
+
+Team: xdevlabs.com
