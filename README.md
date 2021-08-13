@@ -6,8 +6,8 @@ This is an HTML project, based in PHP for including the files for quick publish 
 
 + Run `yarn` to install dependency
 + Run `yarn watch` to watch SCSS files changed
-+ Run `yarn build` to compress the CSS file
-+ Run `./build.sh version_name` to build HTML files
++ Run `yarn compressed` to compress the CSS file
++ Run `yarn build` to build HTML files in `/build/export-html`
 
 ## Files & Folders
 
