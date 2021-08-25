@@ -59,6 +59,6 @@ Change the styles please use `*.scss` in folder `./assets/scss`
 
 ---
 
-Email: `kiemhd@outlook.com` - `kiemxdev@gmmail.com`
+Email: `kiemhd@outlook.com` - `kiemxdev@gmail.com`
 
 Team: xdevlabs.com
