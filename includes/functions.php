@@ -30,7 +30,7 @@ function template_part($template_name = '', $data = [], $echo =  true ){
  */
 function assets($file, $show = true) {
     if (!$show) {
-        return $file;
+        return "assets/{$file}";
     }
 
     echo "assets/{$file}";
