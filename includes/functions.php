@@ -6,7 +6,7 @@
  * @return false|string
  */
 function template_part($template_name = '', $data = [], $echo =  true ){
-    $full_template_name = __DIR__ . "/../templates/{$template_name}.php";
+    $full_template_name = __DIR__ . "/../templates-parts/{$template_name}.php";
     if (file_exists($full_template_name)) {
         if (!empty($data)) extract($data);
         ob_start();
