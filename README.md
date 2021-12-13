@@ -13,7 +13,7 @@ This is an HTML project, based in PHP for including the files for quick publish 
 
 - `assets` contain SCSS, CSS, Images, JS files
 - `includes` contain included PHP functions file
-- `templates` contain part of PHP files you can call the PHP files in this folder by `template_parts` function with an
+- `templates-parts` contain part of PHP files you can call the PHP files in this folder by `template_parts` function with an
   array variable params.
 - `build.sh` to generate HTML files in `./build` folder
 - `package.json`
@@ -42,7 +42,7 @@ template_part('list-post', [
 ]);
 ```
 
-In template file `templates/list-post.php` can use
+In template file `templates-parts/list-post.php` can use
 
 ```PHP
 if (isset($data)) {
