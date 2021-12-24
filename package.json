@@ -20,7 +20,7 @@
     "url": "https://github.com/binjuhor/php-to-html/issues"
   },
   "scripts": {
-    "watch": "node-sass -w assets/scss/styles.scss assets/css/styles.css",
+    "watch": "node-sass -w --source-map true assets/scss/styles.scss assets/css/styles.css",
     "compressed": "node-sass assets/scss/styles.scss assets/css/styles.css --output-style compressed",
     "build": "./build.sh export-html"
   },
