@@ -1,6 +1,6 @@
 {
   "name": "php-to-html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is an HTML project, based in PHP for including the files for quick publish the HTML files",
   "author": "Binjuhor - kiemhd@outlook.com",
   "license": "GNU-v3.0",
@@ -32,14 +32,13 @@
   "dependencies": {
     "autoprefixer": "^10.4.7",
     "laravel-mix": "^6.0.43",
-    "node-sass": "^7.0.1",
     "postcss": "^8.4.13",
     "postcss-advanced-variables": "^3.0.1",
     "postcss-import": "^14.1.0",
     "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
-    "browser-sync": "^2.27.9",
+    "browser-sync": "^2.6.4",
     "browser-sync-webpack-plugin": "^2.3.0",
     "fast-glob": "^3.2.11"
   }
