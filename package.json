@@ -20,11 +20,27 @@
     "url": "https://github.com/binjuhor/php-to-html/issues"
   },
   "scripts": {
-    "watch": "node-sass -w --source-map true assets/scss/styles.scss assets/css/styles.css",
-    "compressed": "node-sass assets/scss/styles.scss assets/css/styles.css --output-style compressed",
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production",
     "build": "./build.sh export-html"
   },
   "dependencies": {
-    "node-sass": "^7.0.1"
+    "autoprefixer": "^10.4.7",
+    "laravel-mix": "^6.0.43",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.13",
+    "postcss-advanced-variables": "^3.0.1",
+    "postcss-import": "^14.1.0",
+    "tailwindcss": "^3.0.24"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "fast-glob": "^3.2.11"
   }
 }
