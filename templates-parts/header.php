@@ -10,6 +10,8 @@
 </head>
 <body>
 
-<header class="bg-red-500">
-    <h1 class="text-white">Hello</h1>
+<header class="bg-red-500 mx-100">
+    <div class="container mx-auto">
+        <h1 class="text-white py-10 px-10">Hello World</h1>
+    </div>
 </header>
